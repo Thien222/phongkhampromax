@@ -1,0 +1,190 @@
+{
+  "patients": [
+    {
+      "id": "2c0527fd-551d-4c7b-b615-09c1aa0f4694",
+      "ticketNumber": 101,
+      "fullName": "xsv",
+      "dob": 2000,
+      "phone": "",
+      "address": "",
+      "gender": "Nam",
+      "reason": "Cắt kính",
+      "hasGlasses": false,
+      "notes": "",
+      "initialVA": {
+        "od": "",
+        "os": ""
+      },
+      "status": "processing_refraction",
+      "timestamp": 1765217772295
+    }
+  ],
+  "inventory": [
+    {
+      "id": "1",
+      "code": "LENS001",
+      "category": "lens",
+      "name": "Essilor Crizal",
+      "specs": {
+        "sph": -2,
+        "cyl": 0,
+        "material": "1.56",
+        "type": "single"
+      },
+      "costPrice": 180000,
+      "price": 280000,
+      "quantity": 50,
+      "minStock": 10,
+      "image": "https://picsum.photos/100/100"
+    },
+    {
+      "id": "2",
+      "code": "LENS002",
+      "category": "lens",
+      "name": "Chemi U2",
+      "specs": {
+        "sph": -2,
+        "cyl": -0.5,
+        "material": "1.60",
+        "type": "single"
+      },
+      "costPrice": 120000,
+      "price": 180000,
+      "quantity": 7,
+      "minStock": 10,
+      "image": "https://picsum.photos/100/100"
+    },
+    {
+      "id": "3",
+      "code": "LENS003",
+      "category": "lens",
+      "name": "Hoya BlueControl",
+      "specs": {
+        "sph": -4,
+        "cyl": 0,
+        "material": "1.67",
+        "type": "single"
+      },
+      "costPrice": 550000,
+      "price": 850000,
+      "quantity": 20,
+      "minStock": 5
+    },
+    {
+      "id": "4",
+      "code": "FRAME001",
+      "category": "frame",
+      "name": "Rayban Aviator",
+      "specs": {
+        "material": "Metal"
+      },
+      "costPrice": 900000,
+      "price": 1500000,
+      "quantity": 12,
+      "minStock": 3
+    },
+    {
+      "id": "5",
+      "code": "FRAME002",
+      "category": "frame",
+      "name": "Nhá»±a Dáº»o HĂ n Quá»‘c",
+      "specs": {
+        "material": "Plastic"
+      },
+      "costPrice": 150000,
+      "price": 300000,
+      "quantity": 100,
+      "minStock": 20
+    },
+    {
+      "id": "6",
+      "code": "MED001",
+      "category": "medicine",
+      "name": "V.Rohto",
+      "costPrice": 35000,
+      "price": 50000,
+      "quantity": 200,
+      "minStock": 50
+    },
+    {
+      "id": "7",
+      "code": "MED002",
+      "category": "medicine",
+      "name": "Tobradex",
+      "costPrice": 60000,
+      "price": 85000,
+      "quantity": 40,
+      "minStock": 10
+    },
+    {
+      "id": "8",
+      "code": "MED003",
+      "category": "medicine",
+      "name": "Systane Ultra",
+      "costPrice": 85000,
+      "price": 120000,
+      "quantity": 30,
+      "minStock": 10
+    },
+    {
+      "id": "id-miypj2uq-udh83e028",
+      "code": "s",
+      "category": "lens",
+      "name": "s",
+      "costPrice": 1,
+      "price": 1,
+      "quantity": 1,
+      "minStock": 5,
+      "specs": {
+        "sph": 0,
+        "cyl": 0,
+        "add": 0,
+        "material": "",
+        "type": "single"
+      }
+    }
+  ],
+  "invoices": [],
+  "settings": {
+    "name": "Phòng khám",
+    "adminPassword": "admin123",
+    "address": "VÄ©nh Thuáº­n - KiĂªn Giang",
+    "phone": "0917416421",
+    "email": "huatrungkien@gmail.com",
+    "printTemplates": {
+      "receiptHeader": "HĂ“A ÄÆ N BĂN Láºº",
+      "receiptFooter": "Cáº£m Æ¡n quĂ½ khĂ¡ch vĂ  háº¹n gáº·p láº¡i!\nVui lĂ²ng giá»¯ láº¡i hĂ³a Ä‘Æ¡n Ä‘á»ƒ báº£o hĂ nh.",
+      "prescriptionHeader": "ÄÆ N KĂNH THUá»C",
+      "prescriptionFooter": "BĂ¡c sÄ© / KTV KhĂºc Xáº¡"
+    },
+    "doctorName": "BSCKII. Hứa Trung Kiên",
+    "workingHours": "Từ 8h đến 19h, Thứ hai đến Chủ nhật",
+    "vat": {
+      "enabled": false,
+      "rate": 10
+    },
+    "invoice": {
+      "header": "HÓA ĐƠN BÁN LẺ",
+      "footer": "Cảm ơn quý khách!",
+      "showLogo": false
+    },
+    "ticket": {
+      "header": "PHÒNG KHÁM MẮT NGOÀI GIỜ",
+      "subHeader": "BSCKII. Hứa Trung Kiên",
+      "note": "Khách hàng vui lòng chờ đến STT",
+      "footer": "Phiếu có hiệu lực trong ngày"
+    },
+    "refraction": {
+      "header": "PHÒNG KHÁM MẮT NGOÀI GIỜ",
+      "rightHeader": "KHÁM KHÚC XẠ",
+      "disclaimer1": "Khách hàng đã được đeo thử kính và cảm thấy thoải mái khi đi lại, không có hiện tượng nhức mắt hay đau đầu. Mức độ thích nghỉ của mỗi người có thể khác nhau, vì vậy thời gian làm quen với kính có thể từ 5–7 ngày.",
+      "disclaimer2": "Khách hàng đã được tư vấn về độ kính phù hợp, mọi điều chỉnh theo nhu cầu riêng sẽ được thực hiện theo mong muốn cá nhân sau khi đã được giải thích rõ ràng."
+    },
+    "backup": {
+      "path": "C:\\EyeClinicBackup",
+      "maxFiles": 10,
+      "autoBackupOnClose": true,
+      "autoBackupInterval": 4
+    }
+  }
+}
